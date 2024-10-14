@@ -59,6 +59,7 @@ def encrypt(plaintext: str, key: str) -> str:
                 % 26
                 + 97
             )
+            
             key_iterator += 1
             plaintext_iterator += 1
     return ciphertext
